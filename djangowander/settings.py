@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'djangowander',
         'USER': 'wander',
         'PASSWORD': 'admin@123',
-        'HOST': '192.168.30.129',
+        'HOST': '192.168.30.130',
         'PORT': 3306
     }
 }
