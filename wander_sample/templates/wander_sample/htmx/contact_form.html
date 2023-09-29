@@ -1,0 +1,11 @@
+{% load rest_framework %}
+<div class="container" id="contact-form">
+
+<form hx-post="{% url 'wander_sample:htmx_contact_form' %}" hx-swap="outerHTML" hx-target="#contact-form">
+  {% csrf_token %}
+
+  {% render_form form %}
+  <input type="submit" value="Submit">
+</form>
+
+</div>

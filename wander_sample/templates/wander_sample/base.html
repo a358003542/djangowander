@@ -1,0 +1,22 @@
+{% extends "admin/base.html" %}
+
+{% load i18n static %}
+
+{% block title %}
+myapp
+{% endblock %}
+
+
+{% block extrahead %}
+<script defer src="https://unpkg.com/htmx.org@1.9.2/dist/htmx.min.js"></script>
+<script defer src="https://unpkg.com/alpinejs@3.12.3/dist/cdn.min.js"></script>
+{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <a href="{% url 'wander_sample:index' %}">{% translate 'Home' %}</a>
+{% if title %} &rsaquo; {{ title }}{% endif %}
+</div>
+{% endblock %}
+
+

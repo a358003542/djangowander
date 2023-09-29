@@ -1,0 +1,3 @@
+# django_wander_client
+从原djangoUser模型出发引入更广义的Client概念。此Client可以是传统意义上的某个用户，也可以是某个设备。
+

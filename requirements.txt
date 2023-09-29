@@ -1,2 +1,13 @@
 Django
-mysqlclient
+django-debug-toolbar
+django-filter
+djangorestframework
+djangorestframework-simplejwt
+djoser
+drf-spectacular
+python-dotenv
+psycopg[binary]
+
+
+
+
